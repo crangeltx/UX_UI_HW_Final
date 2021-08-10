@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+div {
+  z-index: 100 !important;
+}
+
+.mobile-container {
+  max-width: 375px;
+  height: 50px;
+  margin: auto;
+  background-color: white;
+  color: white;
+  border-radius: 10px;
+}
+
 .topnav {
   overflow: hidden;
   top: 45px;
@@ -32,11 +45,6 @@
   top: 0;
 }
 
-.topnav a:hover {
-  color: black !important;
-  background-color: #BAA3CF;
-}
-
 .active {
   background-color: white;
   color: black;
@@ -59,39 +67,66 @@
     border-radius: 10px; 
   }
 
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    font-size: 14px;
-  }
-  .text {
-    width: 375px;
-    height: 770px;
-    background: rgba(255,255,255,1);
-    position: relative;
-    top: 46px;
-    left: 0px;
-    overflow: hidden;
-  }
-  
-  .anEmergency {
-    width: 232px;
-    color: rgba(255,1,1,1);
+  .logo {
     position: absolute;
-    top: 125px;
-    left: 71px;
+    width: 108px;
+    height: 62px;
+    left: 31px;
+    top: 102px;
+    background: url(../images/PEACE_PROJECT_LOGO.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+  }
+
+
+  .reachSupport1 {
+    width: 232px;
+    color: #692D84;
+    position: absolute;
+    top: 100px;
+    left: 182px;
     font-family: SF Compact Rounded;
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 24px;
     text-align: left;
   }
-  .call911 {
+
+  .reachSupport2 {
+    width: 232px;
+    color: #692D84;
+    position: absolute;
+    top: 128px;
+    left: 182px;
+    font-family: SF Compact Rounded;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+  }
+
+.signsPic {
+    position: absolute;
+    width: 264px;
+    height: 260px;
+    left: 56px;
+    top: 182px;
+    background: url(../images/Signs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+
+
+
+
+  .call9111 {
     width: 207px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 183px;
-    left: 83px;
+    top: 460px;
+    left: 78px;
     font-family: SF Compact Rounded;
     font-weight: Bold;
     font-size: 18px;
@@ -99,68 +134,66 @@
     text-align: center;
   }
   
-  .notEmergency {
+  .call9112 {
     width: 207px;
-    color: #692D84;
+    color: rgba(0,0,0,1);
     position: absolute;
-    top: 355px;
-    left: 84px;
+    top: 480px;
+    left: 78px;
     font-family: SF Compact Rounded;
     font-weight: Bold;
-    font-size: 24px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 21px;
     text-align: center;
-  
   }
-  
-.btn-danger {
-  position: absolute !important;
-  width: 209px;
-  height: 46px;
-  left: 82px;
-  top: 259px;
-  border-radius: 14px !important;
-  font-family: SF Compact Rounded !important;
-  font-size: 18px !important;
-  font-weight: 700 !important;
-}
 
-.btn-chatOnline {
-  position: absolute !important;
+.btn-danger {
+  position: absolute;
   width: 209px;
   height: 46px;
   left: 82px;
-  top: 424px;
+  top: 517px;
   border-radius: 14px !important;
   font-family: SF Compact Rounded !important;
   font-size: 18px !important;
   font-weight: 400 !important;
+}
+
+.btn-chatOnline {
+  position: absolute;
+  width: 209px;
+  height: 46px;
+  left: 82px;
+  top: 584px;
+  border-radius: 14px !important;
+  font-family: SF Compact Rounded !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;;
   background-color: #BAA3CF !important;
 }
 
 .btn-chatPhone {
-  position: absolute !important;
+  position: relative !important;
   width: 209px;
   height: 46px;
   left: 82px;
-  top: 487px;
+  top: 597px;
   border-radius: 14px !important;
   font-family: SF Compact Rounded !important;
   font-size: 18px !important;
-  font-weight: 400 !important;
+  font-weight: 400 !important;;
   background-color: #BAA3CF !important;
 }
 
-.btn-homePage {
-  position: absolute !important;
+.btn-supportGroup {
+  position: relative !important;
   width: 209px;
   height: 46px;
   left: 82px;
-  top: 550px;
+  top: 617px;
   border-radius: 14px !important;
   font-family: SF Compact Rounded !important;
   font-size: 18px !important;
-  font-weight: 400 !important;
+  font-weight: 400 !important;;
   background-color: #BAA3CF !important;
 }
-  

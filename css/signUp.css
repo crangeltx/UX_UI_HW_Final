@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
   }
+
+  div {
+    z-index: 100 !important;
+  }
   
   .mobile-container {
     max-width: 375px;
