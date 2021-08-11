@@ -16,17 +16,17 @@ div {
 }
 
 .topnav {
-    top: 45px;
-    overflow: hidden;
-    background-color: #692D84;
-    position: relative;
+  overflow: hidden;
+  top: 45px;
+  background-color: #692D84;
+  position: relative;
 }
 
 #myLinks {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: none;
+  position: relative;
+  display: none;
+  top: 0;
+  left: 0;
 }
 
 .topnav a {
@@ -52,24 +52,26 @@ div {
 }
 
 .topnav input[type=text] { 
-    float: left;
-    padding: 6px;
-    margin-top: 6px;
-    margin-left: 17px;
-    border: none;
-    font-size: 17px;
-    width: 295px;
-    background: url(../images/glass.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+  float: left;
+  padding: 6px;
+  margin-top: 6px;
+  margin-left: 17px;
+  border: none;
+  font-size: 17px;
+  width: 295px;
+  background: url(../images/glass.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
+
+
 .topnav input[type=text] {
-    border: 2px solid #ccc !important;
+    border: 2px solid #ccc;
     border-radius: 10px; 
   }
 
-.logo {
+  .logo {
     position: absolute;
     width: 108px;
     height: 62px;
@@ -79,15 +81,6 @@ div {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
-}
-
-.text {
-    width: 375px;
-    height: 770px;
-    background: rgba(255,255,255,1);
-    top: 46px;
-    left: 0px;
-    overflow: hidden;
   }
  
   .supportGroup1 {

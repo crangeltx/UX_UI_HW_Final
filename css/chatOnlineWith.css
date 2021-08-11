@@ -52,21 +52,27 @@ div {
 }
 
 .topnav input[type=text] { 
-    float: left;
-    padding: 6px;
-    margin-top: 6px;
-    margin-left: 17px;
-    border: none;
-    font-size: 17px;
-    width: 270px;
+  float: left;
+  padding: 6px;
+  margin-top: 6px;
+  margin-left: 17px;
+  border: none;
+  font-size: 17px;
+  width: 295px;
+  background: url(../images/glass.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
+
 
 .topnav input[type=text] {
     border: 2px solid #ccc;
     border-radius: 10px; 
   }
 
-.logo {
+  
+  .logo {
     position: absolute;
     width: 108px;
     height: 62px;
@@ -77,6 +83,7 @@ div {
     background-size: contain;
     background-position: left;
   }
+
 
 .speakTo1 {
     width: 232px;

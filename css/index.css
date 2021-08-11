@@ -56,14 +56,18 @@ span {
     height: 53px;
   }
   
-  .topnav input[type=text] { 
-      float: left;
-      padding: 6px;
-      margin-top: 6px;
-      margin-left: 17px;
-      border: none;
-      font-size: 17px;
-      width: 270px;
+.topnav input[type=text] { 
+    float: left;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 17px;
+    border: none;
+    font-size: 17px;
+    width: 295px;
+    background: url(../images/glass.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .topnav input[type=text] {
