@@ -186,11 +186,11 @@ div {
 }
 
 .btn-supportGroup {
-  position: relative !important;
+  position: absolute !important;
   width: 209px;
   height: 46px;
   left: 82px;
-  top: 617px;
+  top: 713px;
   border-radius: 14px !important;
   font-family: SF Compact Rounded !important;
   font-size: 18px !important;
