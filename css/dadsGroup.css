@@ -45,11 +45,6 @@
     top: 0;
   }
   
-  .topnav a:hover {
-    color: black !important;
-    background-color: #BAA3CF;
-  }
-  
   .active {
     background-color: white;
     color: black;
