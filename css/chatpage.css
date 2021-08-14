@@ -81,38 +81,6 @@ div {
   background-position: left;
 }
 
-.group1 {
-  width: 232px;
-  color: #692D84;
-  position: absolute;
-  top: 100px;
-  left: 182px;
-  font-family: SF Compact Rounded;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: left;
-}
-
-  .inputText {
-      width: 375px;
-      height: 770px;
-      position: absolute;
-      top: 46px;
-      left: 0px;
-      overflow: hidden;
-    }
-    
-.groupSignUp {
-    width: 310px;
-    color: #692D84;
-    position: absolute;
-    top: 25px;
-    left: 108px;
-    font-family: SF Compact Rounded;
-    font-size: 20px;
-    text-align: left;
-}
-
 .Jenny1 {
   position: absolute;
   top: -121px;
