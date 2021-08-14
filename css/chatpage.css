@@ -102,100 +102,111 @@ div {
       overflow: hidden;
     }
     
-  .groupSignUp {
+.groupSignUp {
     width: 310px;
     color: #692D84;
     position: absolute;
     top: 25px;
     left: 108px;
     font-family: SF Compact Rounded;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
-    font-weight: 700;
-}
-  
-.btn-signUpSubmit {
-    position: absolute !important;
-    width: 300px;
-    height: 46px;
-    left: 40px;
-    top: 648px;
-    border-radius: 14px !important;
-    font-family: SF Compact Rounded !important;
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    background-color: #BAA3CF !important;
-  }
-
-.fname {
-  color: black;
-  position: absolute !important;
-  top: 226px !important;
-  left: 21px !important;
 }
 
-#fname {
-    position: absolute;
-    top: 257px;
-    left: 21px;
-    width: 332px;
-    height: 40px;
-}
-
-.lname {
-    color: black;
-    position: absolute !important;
-    top: 329px !important;
-    left: 21px !important;
-  }
-
-  #lname {
-    position: absolute;
-    top: 360px;
-    left: 21px;
-    width: 332px;
-    height: 40px;
-}
-
-.email {
-    color: black;
-    position: absolute !important;
-    top: 432px !important;
-    left: 21px !important;
-  }
-
-  #email {
-    position: absolute;
-    top: 463px;
-    left: 21px;
-    width: 332px;
-    height: 40px;
+.Jenny1 {
+  position: absolute;
+  top: -121px;
+  left: 30px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
 }
 
 .chat1 {
-background-color: blueviolet;
-text-align: left;
-padding: 25px;
-color: white;
-border-radius: 20px;
-width: 80%
+  font-family: SF Compact Rounded;
+  background-color: #692D84;
+  text-align: left;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  position: absolute;
+  top: -100px;
+  left: 20px;
+}
+
+.Sandy1 {
+  position: absolute;
+  top: -4px;
+  left: 98px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
 }
 
 .chat2 {
-background-color: cornflowerblue;
-text-align: right;
-padding: 25px;
-color: white;
-border-radius: 20px;
-width: 80%;
-float: right;
+  font-family: SF Compact Rounded;
+  background-color: cornflowerblue;
+  text-align: right;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  float: right;
+  position: absolute;
+  top: 18px;
+  left: 92px;
+}
+
+.Sandy2 {
+  position: absolute;
+  top: 114px;
+  left: 98px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat3 {
+  font-family: SF Compact Rounded;
+  background-color: #692D84;
+  text-align: left;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  position: absolute;
+  top: 326px;
+  left: 20px;
+}
+
+.Jenny2 {
+  position: absolute;
+  top: 304px;
+  left: 30px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat4 {
+  font-family: SF Compact Rounded;
+  background-color: cornflowerblue;
+  text-align: right;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  float: right;
+  position: absolute;
+  top: 136px;
+  left: 92px;
 }
 
 .chat-container {
   position: absolute;
   top: 280px;
   left: 0px;
-
 }
 
 .bottomspace {
@@ -204,4 +215,9 @@ float: right;
   width: 100%;
   top: 1226px;
   left: 0px;
+}
+
+.input-group {
+    top: 442px;
+    left: 1px;
 }
