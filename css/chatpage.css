@@ -81,6 +81,18 @@ div {
   background-position: left;
 }
 
+.group1 {
+    width: 232px;
+    color: #692D84;
+    position: absolute;
+    top: 100px;
+    left: 182px;
+    font-family: SF Compact Rounded;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+  }
+
 .Jenny1 {
   position: absolute;
   top: -121px;
@@ -124,11 +136,12 @@ div {
   position: absolute;
   top: 18px;
   left: 92px;
+  text-align: left;
 }
 
 .Sandy2 {
   position: absolute;
-  top: 114px;
+  top: 301px;
   left: 98px;
   font-family: SF Compact Rounded;
   font-size: 17px;
@@ -144,13 +157,14 @@ div {
   border-radius: 20px;
   width: 70%;
   position: absolute;
-  top: 326px;
+  top: 157px;
   left: 20px;
+  text-align: left;
 }
 
 .Jenny2 {
   position: absolute;
-  top: 304px;
+  top: 134px;
   left: 30px;
   font-family: SF Compact Rounded;
   font-size: 17px;
@@ -167,8 +181,9 @@ div {
   width: 70%;
   float: right;
   position: absolute;
-  top: 136px;
+  top: 323px;
   left: 92px;
+  text-align: left;
 }
 
 .chat-container {
